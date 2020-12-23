@@ -1,0 +1,35 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* Estilos Gerais */
+#link-logo{
+    text-decoration: none;
+    color: #D2872C;
+    font-size: 25px;
+}
+.navigation{
+    text-decoration: none;
+    color: #766F68;
+    font-size: 20px;
+}
+#title{
+    color: #766F68;
+    font-weight: bold;
+}
+#text{
+    color: #766F68;  
+}
+#start{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background-color: #D2872C;
+    border: #D2872C;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+}
