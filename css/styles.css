@@ -1,27 +1,39 @@
 /* Reset CSS */
 *{
-    margin: 0;
+    margin: 2%;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+html, body{
+    height: 100%;
 }
 /* Estilos Gerais */
 #link-logo{
     text-decoration: none;
     color: #D2872C;
+}
+#logo{
     font-size: 25px;
 }
 .navigation{
     text-decoration: none;
     color: #766F68;
     font-size: 20px;
+    margin: 10px;
 }
 #title{
     color: #766F68;
     font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35px;
 }
 #text{
-    color: #766F68;  
+    color: #766F68;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 #start{
     font-weight: bold;
@@ -32,4 +44,88 @@
     border-radius: 10px;
     width: 200px;
     padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+/* Media queries */
+
+/* Versão Mobile (Smartphones) */
+@media (max-width: 480px) { 
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    #navigation{
+        font-size: 15px;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px){
+    *{
+        margin: 1%;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    #title{
+        text-align: left;
+        font-size: 40px;
+    }
+    #text{
+        text-align: left;
+    }
+    #image{
+        width: 95%;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1024px){
+    *{
+        margin: 1%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #logo{
+        font-size: 40px;
+    }
+    .navigation{
+        font-size: 30px;
+    }
+    #title{
+        font-size: 60px;
+    }
+    #text{
+        font-size: 35px;
+    }
+    #image{
+        width: 100%;
+        margin-left: 0;
+    }
+    #start{
+        width: 300px;
+        font-size: 25px;
+    }
 }
