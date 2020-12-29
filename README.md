@@ -5,7 +5,7 @@
 <p>Este pequeno projeto é uma landing page para site de criação de gráficos.</p>
 
 <p>A ideia do projeto e todo o layout da página foram escolhidos no site https://devchallenge.com.br/<br>
-Tecnologias utilizadas no projeto: HTML5 e CSS3.</p><br>
+Tecnologias utilizadas no projeto: HTML5, CSS3 e JavaScript.</p><br>
 
 <p>Veja a versão final do projeto através do link: https://amazin-graph.vercel.app/</p>
 
