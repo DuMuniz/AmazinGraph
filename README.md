@@ -7,6 +7,8 @@
 <p>A ideia do projeto e todo o layout da página foram escolhidos no site https://devchallenge.com.br/<br>
 Tecnologias utilizadas no projeto: HTML5 e CSS3.</p><br>
 
+<p>Veja a versão final do projeto através do link: https://amazin-graph.vercel.app/</p>
+
 <p>Versão Desktop da página:</p>
 <img src="https://user-images.githubusercontent.com/54873732/103051032-8e3fc980-4574-11eb-83f5-d170fbf684eb.png" width="500">
 
